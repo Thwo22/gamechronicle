@@ -1,0 +1,79 @@
+:hoot {
+
+    --cor001: #0c0c0c;
+    --cor002: #975578;
+    --cor003: #ef9c54;
+
+}
+
+.superior {
+    background-image: url(imagens/gta6.jpg);
+    background-repeat: repeat;
+    height: 300px;
+    margin: -10px -8px -8px -8px;
+    color: white;
+
+    min-width: 320px;
+    
+    
+    
+}
+
+.superior nav {
+    background-color: #0c0c0c;
+    padding: 15px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 8px 8px 0px 0px;
+
+    min-width: 320px;
+   
+}
+
+.superior img.logo {
+    margin-left:44em;
+    display: inline;
+    margin-right: 5px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.superior img {
+    margin-right: 5px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+nav.sup img:hover {
+    box-shadow: 0px 0px 15px #975578;
+    height: 35px;
+    width: 35px ;
+    transition-duration: 0.5s;
+}
+
+nav.inf {
+    background-color: #272727;
+    margin-top: -8px;
+    border-radius: 0px 0px 8px 8px ;
+
+    text-align: center;
+
+    min-width: 320px;
+
+     
+}
+
+nav.inf a {
+    padding: 20px;
+    text-decoration: none;
+    color: #975578;
+    font-weight: bolder;
+}
+
+nav.inf a:hover {
+    padding: 10px;
+    background-color: #975578;
+    color: white;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
