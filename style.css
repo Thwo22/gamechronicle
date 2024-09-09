@@ -1,11 +1,26 @@
 :hoot {
 
-    --cor001: #0c0c0c;
-    --cor002: #975578;
-    --cor003: #ef9c54;
+    --cor001:#0c0c0c;
+    --cor002:#975578;
+    --cor003:#ef9c54;  
+    
+  }
 
-}
+  /*FONTES FREQUENTES:
+  
+  TITULOS: 
+  
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
 
+  PARÁGRAFOS: 
+    
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+  */
+  
 /*imagem, responsividade do Cabeçalho superior e Inferior*/
 .superior {
 
@@ -42,6 +57,11 @@
 
 .title {
     margin-right: 70px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #b98c29;
+
 }
 
 .logo {
@@ -55,7 +75,6 @@
 }
 
 .superior img {
-    margin-right: 5px;
     padding: 0px;
     width: 32px;
     height: 32px;
@@ -98,12 +117,19 @@ nav.inf a:hover {
 
 /*quebra dos conteúdos*/
 
-.quebra {
+.quebrainicio {
  
     background-color: #975578;
     width: 100%;
     height: 15px;
 
+}
+
+.quebra {
+    background-color: #975578;
+    width: 100%;
+    height: 15px;
+    margin-top: 45px;
 }
 
 /*configuração geral de todos os conteudos do site (com responsividade)*/
@@ -114,16 +140,16 @@ nav.inf a:hover {
 
 }
 
+/*os dois seletores abaixo serao copiados como base pra outros conteudos da pagina, ajuste o TOP DA DIV T para configurar o video de acordo com sua posição na pagina.*/
 .containervideo {
       background-color: #975578;
       margin: auto;
-      
       height: 91.3vh;
       width: 92%;
 
 }
 
-.trailer > iframe{
+.t1 > iframe.south{
     position: absolute;
     top: 65%;
     left: 5%;
@@ -131,30 +157,55 @@ nav.inf a:hover {
     height: 90%;
 }
 
+.containervideo2 {
+    background-color: #975578;
+    margin: auto;
+    height: 91.3vh;
+    width: 92%;
+
+}
+
+.t2 > iframe.lol {
+    position: absolute;
+    top: 257.4%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
 .info {
     background-image: linear-gradient(#975578, #ffa768);
     border-radius: 8px;
     
-    margin: 15px auto;
+    margin:  auto;
     
-    height: 75vh;
+    height: 78vh;
     width: 92%;
 
     text-align: center;
     color: white;
 }
 
-.info h1 {
-    padding: 5px;
+.info h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
 }
 
 .info p {
-   
-    margin: 0px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    
 }
 
 .plataformas {
-    padding: 15px;
+    padding: 5px;
 }
 
 .info h2 {
@@ -167,14 +218,14 @@ nav.inf a:hover {
 .jogo img {
 
     height: 30vh;
-    width: 55%;
+    width: 60%;
     
 }
 
 .jogo img:hover {
     
     height: 31vh;
-    width: 58%;
+    width: 63%;
     box-shadow: 5px 5px 10px #00000091;
     cursor: pointer;
     transition-duration: 0.3s;

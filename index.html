@@ -3,22 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 
     <title>GameChronicle</title>
-    <link rel="stylesheet" href="style.css">
-    
+
+       <!-- fontes -->
     <style>
-        body {
-            background-color: #0c0c0c;
-            margin: 0px;
-            padding: 0px;
-        }
+         @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
     </style>
 
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+        
+         <!-- css global -->
+
+        <style>
+
+         body {
+        background-color: #0c0c0c;
+        background-image: url(imagens/favicons/controlefundo.png);
+        background-size: 32px;
+        margin: 0px;
+        padding: 0px;
+         
+        }
+         
+     </style>
+ 
 </head>
 
 <body>
-
+     <!-- CABEÇALHO -->
     <header class="superior">
     
         <nav class="sup"> 
@@ -40,45 +56,108 @@
             </div>
 
         </nav>
-      
+       
+        <!-- CABEÇALHO INFERIOR-->
         <nav class="inf"> 
             
             <a href="">Home</a>
-            <a href="">Portifolio</a> <a href="">Sobre</a>
+            <a href="">Portifolio</a> 
+            <a href="">Sobre</a>
             <a href="">Contato</a>
        
         </nav>
         
     </header>
 
-    <div class="quebra"></div>
+     <!-- TODA DIV QUEBRA SIGNIFICA QUE UM CONTEUDO ACABOU E OUTRO COMEÇOU-->
+    <div class="quebrainicio"></div>
 
     <main>
-
+        
+         <!-- ESSA DIV GUARDARÁ TODO O CONTEÚDO DESSA PARTE DO SITE-->
         <div class="conteudo">
-
+            
+             <!-- BOX ROXA ENVOLTA DO TRAILER -->
             <div class="containervideo">
 
-               <div class="trailer"> <iframe width="560" height="315" src="https://www.youtube.com/embed/g4oqgRLVmZw?si=BnubO03gKYuOWTzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+               <!-- TRAILER -->
+               <div class="t1">
+                
+                <iframe class="south" width="560" height="315" src="https://www.youtube.com/embed/g4oqgRLVmZw?si=BnubO03gKYuOWTzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+               </div>
 
             </div>
-
+           
+             <!-- DIV INFO APRESENTA INFORMAÇOES SOBRE O JOGO DO TRAILER-->
             <div class="info">
-
-                <h1>South of Midnight</h1>
+                 <!-- 1 -->
+                <h1>SOUTH OF MIDNIGHT</h1>
                  <p>Plataformas</p>
 
                  <div class="plataformas"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/xbox.png" alt="xbox"/></div>
 
-                <p>Data</p>
+                <p>Data:</p>
 
-                <h2>?/?/2025</h2>
+                <h2>2025</h2>
                 <p>para saber mais clique:</p>
-                <div class="jogo"><img src="https://gamehall.com.br/wp-content/uploads/2024/06/south1-780x470.webp" alt="">
+                <div class="jogo"><a href="#">
+                    
+                    <img src="https://gamehall.com.br/wp-content/uploads/2024/06/south1-780x470.webp" alt="">
                 
-
+                </a></div>
+     
+            
             </div>
+
+            
+
         </div>
+
+        <div class="quebra"></div>
+
+        <div class="conteudo">
+
+            <div class="containervideo2"></div>
+
+                <!-- 2 -->
+
+                <div class="t2">
+
+
+                <iframe class="lol"width="560" height="315" src="https://www.youtube.com/embed/aR-KAldshAE?si=tkSkWZS4cVQd65nX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+               </div>
+            
+            </div>
+
+            <div class="info">
+
+                 <!-- 2 -->
+
+                <h1>LOL</h1>
+
+                <p>Plataformas</p>
+
+                <div class="plataformas"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/xbox.png" alt="xbox"/></div>
+
+                <p>Data:</p>
+
+                <h2>2025</h2>
+                <p>para saber mais clique:</p>
+                <div class="jogo"><a href="#">
+                    
+                    <img src="https://gamehall.com.br/wp-content/uploads/2024/06/south1-780x470.webp" alt="">
+                
+                </a></div>
+     
+            
+            </div>
+
+            
+
+        </div>
+
     </main>
     
     
