@@ -159,193 +159,6 @@ nav.inf a:hover {
     height: 90%;
 }
 
-.containervideo2 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t2 > iframe.ds2 {
-    position: absolute;
-    top: 272%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo3 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t3 > iframe.wolwerine {
-    position: absolute;
-    top: 474%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo4 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t4 > iframe.blade {
-    position: absolute;
-    top: 675.5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo5 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t5 > iframe.dragon {
-    position: absolute;
-    top: 877.4%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo6 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t6 > iframe.monster {
-    position: absolute;
-    top: 1079.2%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo7 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t7 > iframe.judas {
-    position: absolute;
-    top: 1281%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo8 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t8 > iframe.marathon {
-    position: absolute;
-    top: 1483%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo9 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t9 > iframe.instiction {
-    position: absolute;
-    top: 1684.6%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo10 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t10 > iframe.sinking {
-    position: absolute;
-    top: 1886.5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo11 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t11 > iframe.fatal {
-    position: absolute;
-    top: 2088.5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
-.containervideo12 {
-    background-color: #975578;
-    margin: auto;
-    height: 92vh;
-    width: 92%;
-
-}
-
-.t12 > iframe.lis {
-    position: absolute;
-    top: 2290.2%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    
-}
-
 .info {
     background-image: linear-gradient(#975578, #ffa768);
     border-radius: 8px;
@@ -382,6 +195,661 @@ nav.inf a:hover {
 }
 
 .info h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+
+.containervideo2 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t2 > iframe.ds2 {
+    position: absolute;
+    top: 272%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info2 {
+    background-image: linear-gradient(#8d0c0c, #db5b11);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info2 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info2 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info2 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+.containervideo3 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t3 > iframe.wolwerine {
+    position: absolute;
+    top: 474%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info3 {
+    background-image: linear-gradient(#000000, #ff974d);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info3 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info3 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info3 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+.containervideo4 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t4 > iframe.blade {
+    position: absolute;
+    top: 675.5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info4 {
+    background-image: linear-gradient(rgb(71, 7, 7), #0a0101);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info4 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info4 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info4 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+.containervideo5 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t5 > iframe.dragon {
+    position: absolute;
+    top: 877.4%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info5 {
+    background-image: linear-gradient(#3f0e28, #fcacff);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info5 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info5 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info5 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+.containervideo6 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t6 > iframe.monster {
+    position: absolute;
+    top: 1079.2%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info6 {
+    background-image: linear-gradient(#93cfdf, #ef9c54);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info6 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info6 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info6 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+.containervideo7 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t7 > iframe.judas {
+    position: absolute;
+    top: 1281%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info7 {
+    background-image: linear-gradient(#5f1006, #39be5a);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info7 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info7 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info7 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+
+.containervideo8 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t8 > iframe.marathon {
+    position: absolute;
+    top: 1483%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info8 {
+    background-image: linear-gradient(#72d7f3, #9ff58a);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info8 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info8 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info8 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+
+.containervideo9 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t9 > iframe.instiction {
+    position: absolute;
+    top: 1684.6%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info9 {
+    background-image: linear-gradient(#2b2b2b, #000000);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info9 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info9 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info9 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+
+.containervideo10 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t10 > iframe.sinking {
+    position: absolute;
+    top: 1886.5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info10 {
+    background-image: linear-gradient(#c7c7c7, #20303a);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info10 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info10 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info10 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+
+.containervideo11 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t11 > iframe.fatal {
+    position: absolute;
+    top: 2088.5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info11 {
+    background-image: linear-gradient(#ec6627, #2f2e9b);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info11 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info11 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info11 h2 {
+    margin: 0px;
+    padding: 10px;
+
+    
+}
+
+
+.containervideo12 {
+    background-color: #975578;
+    margin: auto;
+    height: 92vh;
+    width: 92%;
+
+}
+
+.t12 > iframe.lis {
+    position: absolute;
+    top: 2290.2%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.info12 {
+    background-image: linear-gradient(#6760ce, #b6b5b5);
+    border-radius: 8px;
+    
+    margin:  auto;
+    
+    height: 85vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.info12 h1,h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-top: 10px;
+  
+}
+
+.info12 p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: #0c0c0c 3px 3px 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.plataformas {
+    padding: 5px;
+}
+
+.info12 h2 {
     margin: 0px;
     padding: 10px;
 
