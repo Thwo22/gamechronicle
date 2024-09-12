@@ -1,0 +1,57 @@
+@charset "UTF8";
+
+@media (max-width: 450px) {
+
+body{
+    background-image: linear-gradient(#975578, #ffa768);
+    background-repeat: no-repeat;
+    
+}
+
+.voltar {
+    margin: 0px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.voltar:hover {
+    background-color: rgba(255, 255, 255, 0.733);
+    transition-duration: 0.3s;
+}
+
+.voltar >img {
+    width: 16px ;
+    height: 16px;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.ficha {
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    background-color: rgb(51, 50, 50);
+}
+
+
+
+.artigo {
+    color: white;
+    text-align: justify;
+
+    padding: 15px;
+    margin:  auto;
+    width: 350px;
+
+    background-color: rgb(51, 50, 50) ;
+    border-radius: 8px;
+}
+
+}
