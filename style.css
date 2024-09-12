@@ -146,14 +146,14 @@ nav.inf a:hover {
 .containervideo {
       background-color: #975578;
       margin: auto;
-      height: 91.4vh;
+      height: 92vh;
       width: 92%;
 
 }
 
 .t1 > iframe.gta6{
     position: absolute;
-    top: 70.5%;
+    top: 70%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -162,14 +162,14 @@ nav.inf a:hover {
 .containervideo2 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t2 > iframe.ds2 {
     position: absolute;
-    top: 271%;
+    top: 272%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -179,14 +179,14 @@ nav.inf a:hover {
 .containervideo3 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t3 > iframe.wolwerine {
     position: absolute;
-    top: 472%;
+    top: 474%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -196,14 +196,14 @@ nav.inf a:hover {
 .containervideo4 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t4 > iframe.blade {
     position: absolute;
-    top: 673.4%;
+    top: 675.5%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -213,14 +213,14 @@ nav.inf a:hover {
 .containervideo5 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t5 > iframe.dragon {
     position: absolute;
-    top: 875%;
+    top: 877.4%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -230,14 +230,14 @@ nav.inf a:hover {
 .containervideo6 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t6 > iframe.monster {
     position: absolute;
-    top: 1076%;
+    top: 1079.2%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -247,14 +247,14 @@ nav.inf a:hover {
 .containervideo7 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t7 > iframe.judas {
     position: absolute;
-    top: 1277%;
+    top: 1281%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -264,14 +264,14 @@ nav.inf a:hover {
 .containervideo8 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t8 > iframe.marathon {
     position: absolute;
-    top: 1478.5%;
+    top: 1483%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -281,14 +281,14 @@ nav.inf a:hover {
 .containervideo9 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t9 > iframe.instiction {
     position: absolute;
-    top: 1679.5%;
+    top: 1684.6%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -298,14 +298,14 @@ nav.inf a:hover {
 .containervideo10 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t10 > iframe.sinking {
     position: absolute;
-    top: 1881%;
+    top: 1886.5%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -315,14 +315,14 @@ nav.inf a:hover {
 .containervideo11 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t11 > iframe.fatal {
     position: absolute;
-    top: 2082%;
+    top: 2088.5%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -332,14 +332,14 @@ nav.inf a:hover {
 .containervideo12 {
     background-color: #975578;
     margin: auto;
-    height: 91.4vh;
+    height: 92vh;
     width: 92%;
 
 }
 
 .t12 > iframe.lis {
     position: absolute;
-    top: 2283.4%;
+    top: 2290.2%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -373,6 +373,7 @@ nav.inf a:hover {
     font-weight: 400;
     text-shadow: #0c0c0c 3px 3px 5px;
     margin: 5px;
+    margin-bottom: 10px;
     
 }
 
