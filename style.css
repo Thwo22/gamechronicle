@@ -22,6 +22,8 @@
   */
   
 /*imagem, responsividade do Cabeçalho superior e Inferior*/
+
+@media(max-width: 450px) {
 .superior {
 
     background-image: url(imagens/gta6.jpg);
@@ -144,14 +146,14 @@ nav.inf a:hover {
 .containervideo {
       background-color: #975578;
       margin: auto;
-      height: 91.1vh;
+      height: 91.4vh;
       width: 92%;
 
 }
 
-.t1 > iframe.south{
+.t1 > iframe.gta6{
     position: absolute;
-    top: 71.1%;
+    top: 70.5%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -160,14 +162,82 @@ nav.inf a:hover {
 .containervideo2 {
     background-color: #975578;
     margin: auto;
-    height: 91.3vh;
+    height: 91.4vh;
     width: 92%;
 
 }
 
-.t2 > iframe.lol {
+.t2 > iframe.ds2 {
     position: absolute;
-    top: 273%;
+    top: 272%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.containervideo3 {
+    background-color: #975578;
+    margin: auto;
+    height: 91.4vh;
+    width: 92%;
+
+}
+
+.t3 > iframe.wolwerine {
+    position: absolute;
+    top: 472%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.containervideo4 {
+    background-color: #975578;
+    margin: auto;
+    height: 91.4vh;
+    width: 92%;
+
+}
+
+.t4 > iframe.blade {
+    position: absolute;
+    top: 673.4%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.containervideo5 {
+    background-color: #975578;
+    margin: auto;
+    height: 91.4vh;
+    width: 92%;
+
+}
+
+.t5 > iframe.dragon {
+    position: absolute;
+    top: 875%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.containervideo6 {
+    background-color: #975578;
+    margin: auto;
+    height: 91.4vh;
+    width: 92%;
+
+}
+
+.t6 > iframe.monster {
+    position: absolute;
+    top: 1076%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -233,3 +303,4 @@ nav.inf a:hover {
 
 
 
+}
