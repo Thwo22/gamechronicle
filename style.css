@@ -23,7 +23,7 @@
   
 /*imagem, responsividade do Cabeçalho superior e Inferior*/
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
 .superior {
 
     background-image: url(imagens/gta6.jpg);
@@ -876,7 +876,7 @@ nav.inf a:hover {
 
 /*CELULARES MEIORES E OUTROS DISPOSITIVOS.*/
 
-@media screen and (min-width:450px) and (max-width:768px) {
+@media (max-width:768px) {
 
 .superior{ 
     background-image: url(imagens/gta6.jpg);
