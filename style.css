@@ -876,7 +876,7 @@ nav.inf a:hover {
 
 /*CELULARES MEIORES E OUTROS DISPOSITIVOS.*/
 
-@media (max-width:768px) {
+@media (min-width:768px) and (max-width: 1024px) {
 
 .superior{ 
     background-image: url(imagens/gta6.jpg);
