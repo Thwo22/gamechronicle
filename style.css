@@ -10,7 +10,7 @@
 
 /*imagem, responsividade do Cabeçalho superior e Inferior*/
 
-@media (max-width: 768px) {
+@media (max-width: 460px) {
 .superior {
 
     background: url(imagens/gta6.jpg) top/cover no-repeat fixed;
@@ -83,11 +83,9 @@ nav.inf a:hover {
 /*quebra dos conteúdos*/
 
 .quebrainicio {
- 
     background-color: #975578;
     width: 100%;
     height: 15px;
-
 }
 .quebra {
     background-color: #975578;
@@ -104,25 +102,29 @@ nav.inf a:hover {
 /*os dois seletores abaixo serao copiados como base pra outros conteudos da pagina, ajuste o TOP DA DIV T para configurar o video de acordo com sua posição na pagina.*/
 
 .containervideo {
-      background-color: #975578;
-      margin: auto;
-      height: 92vh;
-      width: 94%;
+    background-color: #975578;
+    margin: auto;
+    position: relative;
+    top:50% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
+    margin-bottom: 20px;
 }
 .t1 > iframe.gta6{
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+    position: relative;
+    top: 10px;
+    left: 2%;
+    width: 95%;
+    height:210px;
 }
 .info {
     background-image: linear-gradient(#975578, #ffa768);
 
-   
     border-radius: 10px;
     margin: auto;
-    height: 85vh;
+    height: 65vh;
     width: 92%;
     text-align: center;
     color: white;
@@ -130,24 +132,27 @@ nav.inf a:hover {
 .containervideo2 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+    margin-bottom: 20px;
+
 }
 .t2 > iframe.ds2 {
     position: absolute;
-    top: 272%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+    top: 160%;
+    left: 6%;
+    width: 87%;
+    height:200px;
     
 }
 .info2 {
     background-image: linear-gradient(#8d0c0c, #db5b11);
     border-radius: 8px;
-    
     margin:  auto;
-    
-    height: 85vh;
+    height: 65vh;
     width: 92%;
 
     text-align: center;
@@ -156,16 +161,20 @@ nav.inf a:hover {
 .containervideo3 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 
 }
 .t3 > iframe.wolwerine {
     position: absolute;
-    top: 474%;
+    top: 309.5%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
 }
 .info3 {
     background-image: linear-gradient(#000000, #ff974d);
@@ -182,15 +191,19 @@ nav.inf a:hover {
 .containervideo4 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 }
 .t4 > iframe.blade {
     position: absolute;
-    top: 675.5%;
+    top: 415.5%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
     
 }
 .info4 {
@@ -208,15 +221,19 @@ nav.inf a:hover {
 .containervideo5 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 }
 .t5 > iframe.dragon {
     position: absolute;
     top: 877.4%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
 }
 .info5 {
     background-image: linear-gradient(#3f0e28, #fcacff);
@@ -230,14 +247,19 @@ nav.inf a:hover {
     text-align: center;
     color: white;
 }
-.plataformas {
+.plataformas p {
     padding: 5px;
+    margin: 0px;
 }
 .containervideo6 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 
 }
 .t6 > iframe.monster {
@@ -245,7 +267,7 @@ nav.inf a:hover {
     top: 1079.2%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
 }
 .info6 {
     background-image: linear-gradient(#93cfdf, #ef9c54);
@@ -262,15 +284,19 @@ nav.inf a:hover {
 .containervideo7 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 }
 .t7 > iframe.judas {
     position: absolute;
     top: 1281%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
     
 }
 .info7 {
@@ -288,8 +314,12 @@ nav.inf a:hover {
 .containervideo8 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 
 }
 .t8 > iframe.marathon {
@@ -297,7 +327,7 @@ nav.inf a:hover {
     top: 1483%;
     left: 5%;
     width: 90%;
-    height: 90%;  
+    height:28%; 
 }
 .info8 {
     background-image: linear-gradient(#72d7f3, #9ff58a);
@@ -314,8 +344,12 @@ nav.inf a:hover {
 .containervideo9 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 
 }
 .t9 > iframe.instiction {
@@ -323,7 +357,7 @@ nav.inf a:hover {
     top: 1684.6%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
     
 }
 .info9 {
@@ -341,15 +375,19 @@ nav.inf a:hover {
 .containervideo10 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 }
 .t10 > iframe.sinking {
     position: absolute;
     top: 1886.5%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
 }
 .info10 {
     background-image: linear-gradient(#c7c7c7, #20303a);
@@ -366,15 +404,19 @@ nav.inf a:hover {
 .containervideo11 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 }
 .t11 > iframe.fatal {
     position: absolute;
     top: 2088.5%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
     
 }
 .info11 {
@@ -392,15 +434,19 @@ nav.inf a:hover {
 .containervideo12 {
     background-color: #975578;
     margin: auto;
-    height: 92vh;
-    width: 92%;
+    position: relative;
+    top:10% ;
+    left:0% ;
+    height:30vh;
+    width:94%;
+
 }
 .t12 > iframe.lis {
     position: absolute;
     top: 2290.2%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height:28%;
 }
 .info12 {
     background-image: linear-gradient(#6760ce, #b6b5b5);
@@ -421,13 +467,13 @@ nav.inf a:hover {
     text-shadow: #0c0c0c 3px 3px 5px;
 }
 .info p, .info2 p, .info3 p, .info4 p, .info5 p, .info6 p, .info7 p, .info8 p, .info8 p, .info9 p, .info p, .info11 p, .info12 p {
-
-      font:var(--font-p);
-      text-shadow: #0c0c0c 3px 3px 5px;
-      padding-bottom: 15px;
+    font:var(--font-p);
+    text-shadow: #0c0c0c 3px 3px 5px;
+    padding-bottom: 0px;
+    margin: 3px;
 }
 .plataformas {
-    padding: 5px;
+    padding: 0px;
 }
 .jogo img {
     height: 25vh;
