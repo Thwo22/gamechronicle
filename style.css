@@ -10,7 +10,7 @@
 
 /*imagem, responsividade do Cabeçalho superior e Inferior*/
 
-@media (max-width: 460px) {
+@media (max-width: 780px) {
 .superior {
 
     background: url(imagens/gta6.jpg) top/cover no-repeat fixed;
