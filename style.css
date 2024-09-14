@@ -103,6 +103,7 @@ nav.inf a:hover {
 
 .containervideo {
     background-color: #975578;
+    display: flexbox;
     margin: auto;
     position: relative;
     top:50% ;
@@ -113,11 +114,11 @@ nav.inf a:hover {
     margin-bottom: 20px;
 }
 .t1 > iframe.gta6{
-    position: relative;
-    top: 10px;
-    left: 2%;
-    width: 95%;
-    height:210px;
+    position: absolute;
+    top:50%;
+    left: 6%;
+    width: 87%;
+    height:200px;
 }
 .info {
     background-image: linear-gradient(#975578, #ffa768);
