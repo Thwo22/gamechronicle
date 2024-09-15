@@ -394,7 +394,7 @@ nav.inf a:hover {
 
 }
 /*TABLETS*/
-@media (min-width: 719px) and (max-width:1024px)
+@media (min-width: 720px) and (max-width:1024px)
 {
     .superior {
     background: url(imagens/gta6.jpg) top/cover no-repeat;
@@ -756,17 +756,18 @@ nav.inf a:hover {
     padding-bottom: 0px;
     margin: 3px;
 }
-.plataformas {
-    padding: 0px;
+.plataformas img {
+    width: 42px ;
+    height: 42px ;
 }
 .jogo img {
-    height: 25vh;
+    height: 23vh;
     width: 60%; 
 }
 
 .jogo img:hover {
-    height: 26vh;
-    width: 70%;
+    height: 24vh;
+    width: 65%;
     box-shadow: 5px 5px 10px #00000091;
     cursor: pointer;
     transition-duration: 0.3s;
