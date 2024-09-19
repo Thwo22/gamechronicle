@@ -393,8 +393,9 @@ nav.inf a:hover {
 }
 
 }
+
 /*TABLETS*/
-@media (min-width: 720px) and (max-width:1024px)
+@media (min-width: 720px) and (max-width:1200px)
 {
     .superior {
     background: url(imagens/gta6.jpg) top/cover no-repeat;
@@ -774,3 +775,382 @@ nav.inf a:hover {
 }
 
 }
+
+/*COMPUTADORES*/
+
+@media (min-width: 1200px) and (max-width:1380px) {
+
+    
+    .superior {
+    background: url(imagens/gta6.jpg) bottom/cover no-repeat fixed;
+       
+    padding: 0px;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    }
+    /*configuração interna do cabeçalho superior*/
+     nav {
+        background-color: #0c0c0c;
+        padding: 15px;
+        margin: 0px;
+        border-radius: 0px;
+     }
+    /*tudo que esta dentro do cabeçalho superior*/
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .title {
+        margin-right: 32vw;
+        font: var(--font-h1);
+        color: #b3973b;
+    }
+    .logo {
+       height: 52px ;
+       width: 52px;
+       margin-right: 35vw;
+    }
+    
+    .contato {
+        display: flex;
+    }
+    .contato img:hover {
+        background-color: 10px 10px 30px rgb(122, 24, 24);
+        height: 35px;
+        width: 35px ;
+        transition-duration: 0.5s;
+    }
+    /*configuração do cabeçalho inferior*/
+    nav.inf {
+        background-color: #272727;
+        margin-top: -8px;
+        border-radius: 0px 0px 8px 8px ;
+        text-align: center;
+    }
+    nav.inf a {
+        padding: 30px;
+        text-decoration: none;
+        color: #975578;
+        font: var(--font-p);
+    }
+    nav.inf a:hover {
+        padding: 10px;
+        background-color: #975578;
+        color: white;
+        border-radius: 3px;
+        transition-duration: 0.5s;
+    }
+    
+    /*quebra dos conteúdos*/
+    
+    .quebrainicio {
+        background-color: #975578;
+        width: 100%;
+        height: 15px;
+    }
+    .quebra {
+        background-color: #975578;
+        width: 100%;
+        height: 15px;
+        margin-top: 45px;
+    }
+    /*configuração geral de todos os conteudos do site (com responsividade)*/
+    .conteudo {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    /*os dois seletores abaixo serao copiados como base pra outros conteudos da pagina, ajuste o TOP DA DIV T para configurar o video de acordo com sua posição na pagina.*/
+    
+    
+    .t1 > iframe.gta6{
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info {
+        background-image: linear-gradient(#975578, #ffa768);
+    
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+
+    .t2 > iframe.ds2 {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info2 {
+        background-image: linear-gradient(#8d0c0c, #db5b11);
+
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t3 > iframe.wolwerine {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info3 {
+        background-image: linear-gradient(#000000, #ff974d);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t4 > iframe.blade {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info4 {
+        background-image: linear-gradient(rgb(71, 7, 7), #0a0101);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t5 > iframe.dragon {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info5 {
+        background-image: linear-gradient(#3f0e28, #fcacff);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    .plataformas p {
+        padding: 5px;
+        margin: 0px;
+    }
+    
+    .t6 > iframe.monster {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info6 {
+        background-image: linear-gradient(#93cfdf, #ef9c54);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t7 > iframe.judas {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info7 {
+        background-image: linear-gradient(#5f1006, #39be5a);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t8 > iframe.marathon {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info8 {
+        background-image: linear-gradient(#72d7f3, #9ff58a);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t9 > iframe.instiction {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info9 {
+        background-image: linear-gradient(#2b2b2b, #000000);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t10 > iframe.sinking {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info10 {
+        background-image: linear-gradient(#c7c7c7, #20303a);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t11 > iframe.fatal {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info11 {
+        background-image: linear-gradient(#ec6627, #2f2e9b);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    
+    .t12 > iframe.lis {
+        position: relative;
+        top:0%;
+        left:5%;
+        width:287%;
+        height:500px;
+    
+        margin-bottom:20px;
+    }
+    .info12 {
+        background-image: linear-gradient(#6760ce, #b6b5b5);
+        border-radius: 10px;
+        position: relative;
+        top: 20% ;
+        left: 45% ;
+        height: 500px;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+    .info h1, h2, .info2 h1, h2, .info3 h1, h2, .info4 h1, h2, .info5 h1, h2, .info6 h1, h2, .info7 h1, h2, .info8 h1, h2, .info8 h1, h2, .info9 h1, h2, .info10 h1, h2, .info11 h1, h2, .info12 h1, h2 {
+        font: var(--font-h1);
+        margin: 0px;
+        padding-top: 10px;
+        text-shadow: #0c0c0c 3px 3px 5px;
+    }
+    .info p, .info2 p, .info3 p, .info4 p, .info5 p, .info6 p, .info7 p, .info8 p, .info8 p, .info9 p, .info p, .info11 p, .info12 p {
+        font:var(--font-p);
+        text-shadow: #0c0c0c 3px 3px 5px;
+        padding-bottom: 0px;
+        margin: 3px;
+    }
+    .plataformas img {
+        width: 42px ;
+        height: 42px ;
+    }
+    .jogo img {
+        height: 23vh;
+        width: 60%; 
+    }
+    
+    .jogo img:hover {
+        height: 24vh;
+        width: 65%;
+        box-shadow: 5px 5px 10px #00000091;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+    
+    }
+
