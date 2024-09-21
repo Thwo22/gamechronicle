@@ -336,7 +336,7 @@ nav.inf a:hover {
     
     margin: auto;
     
-    height: 70vh;
+    height: 65vh;
     width: 92%;
 
     text-align: center;
@@ -364,13 +364,169 @@ nav.inf a:hover {
     text-align: center;
     color: white;
 }
-.info h1, h2, .info2 h1, h2, .info3 h1, h2, .info4 h1, h2, .info5 h1, h2, .info6 h1, h2, .info7 h1, h2, .info8 h1, h2, .info8 h1, h2, .info9 h1, h2, .info10 h1, h2, .info11 h1, h2, .info12 h1, h2 {
+
+.extra {
+    background-color:rgb(122, 24, 24);
+    text-align: center;
+    width: 90%;
+    border-radius: 10px 0px 10px 0px;
+    padding: 5px;
+    margin: auto;
+}
+
+.extra > p, h1 {
+    text-shadow: 3px 3px 3px black;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.t13 > iframe.zelda {
+    position: relative;
+    top:50%;
+    left:5%;
+    width:90%;
+    height:200px;
+
+    margin-bottom:10px;
+}
+
+.info13 {
+    background-image: linear-gradient(#6760ce, #b6b5b5);
+    border-radius: 8px;
+    
+    margin: auto;
+    
+    height: 80vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.t14 >iframe.pokemon {
+    position: relative;
+    top:50%;
+    left:5%;
+    width:90%;
+    height:200px;
+
+    margin-bottom:10px;
+}
+
+.info14 {
+    background-image: linear-gradient(#6760ce, #b6b5b5);
+    border-radius: 8px;
+    
+    margin: auto;
+    
+    height: 80vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.t15 >iframe.ml {
+    position: relative;
+    top:50%;
+    left:5%;
+    width:90%;
+    height:200px;
+
+    margin-bottom:10px;
+}
+
+.info15 {
+    background-image: linear-gradient(#6760ce, #b6b5b5);
+    border-radius: 8px;
+    
+    margin: auto;
+    
+    height: 80vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.t16 > iframe.mparty {
+    position: relative;
+    top:50%;
+    left:5%;
+    width:90%;
+    height:200px;
+
+    margin-bottom:10px;
+}
+
+.info16 {
+    background-image: linear-gradient(#6760ce, #b6b5b5);
+    border-radius: 8px;
+    
+    margin: auto;
+    
+    height: 80vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.t17>iframe.sonic {
+    position: relative;
+    top:50%;
+    left:5%;
+    width:90%;
+    height:200px;
+
+    margin-bottom:10px;
+}
+
+.info17 {
+    background-image: linear-gradient(#6760ce, #b6b5b5);
+    border-radius: 8px;
+    
+    margin: auto;
+    
+    height: 80vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+.t18>iframe.ln3 {
+    position: relative;
+    top:50%;
+    left:5%;
+    width:90%;
+    height:200px;
+
+    margin-bottom:10px;
+}
+
+.info18 {
+    background-image: linear-gradient(#6760ce, #b6b5b5);
+    border-radius: 8px;
+    
+    margin: auto;
+    
+    height: 80vh;
+    width: 92%;
+
+    text-align: center;
+    color: white;
+}
+
+
+
+.info h1, h2, .info2 h1, h2, .info3 h1, h2, .info4 h1, h2, .info5 h1, h2, .info6 h1, h2, .info7 h1, h2, .info8 h1, h2, .info8 h1, h2, .info9 h1, h2, .info10 h1, h2, .info11 h1, h2, .info12 h1, h2, .extra h1, .info13 h1, h2, .info14 h1, h2, .info15 h1, h2, .info16 h1, h2, .info17 h1, h2, .info18 h1, h2 {
     font: var(--font-h1);
     margin: 0px;
     padding-top: 10px;
     text-shadow: #0c0c0c 3px 3px 5px;
 }
-.info p, .info2 p, .info3 p, .info4 p, .info5 p, .info6 p, .info7 p, .info8 p, .info8 p, .info9 p, .info10 p, .info11 p, .info12 p {
+.info p, .info2 p, .info3 p, .info4 p, .info5 p, .info6 p, .info7 p, .info8 p, .info8 p, .info9 p, .info10 p, .info11 p, .info12 p, .extra p, .info13 p, .info14 p, .info15 p, .info16 p, .info17 p, .info18 p  {
     font:var(--font-p);
     text-shadow: #0c0c0c 3px 3px 5px;
     padding-bottom: 0px;
@@ -860,7 +1016,7 @@ nav.inf a:hover {
     /*configuração geral de todos os conteudos do site (com responsividade)*/
     .conteudo {
         display: flex;
-        margin-top: 20px;
+        margin-top: 80px;
     }
     
     /*os dois seletores abaixo serao copiados como base pra outros conteudos da pagina, ajuste o TOP DA DIV T para configurar o video de acordo com sua posição na pagina.*/
@@ -1118,22 +1274,23 @@ nav.inf a:hover {
         position: relative;
         top: 20% ;
         left: 45% ;
-        height: 500px;
+        height: 510px;
         width: 30%;
         text-align: center;
         color: white;
     }
     .info h1, h2, .info2 h1, h2, .info3 h1, h2, .info4 h1, h2, .info5 h1, h2, .info6 h1, h2, .info7 h1, h2, .info8 h1, h2, .info8 h1, h2, .info9 h1, h2, .info10 h1, h2, .info11 h1, h2, .info12 h1, h2 {
         font: var(--font-h1);
+        font-size: 30px;
         margin: 0px;
-        padding-top: 10px;
+        padding-top: 0px;
         text-shadow: #0c0c0c 3px 3px 5px;
     }
-    .info p, .info2 p, .info3 p, .info4 p, .info5 p, .info6 p, .info7 p, .info8 p, .info8 p, .info9 p, .info p, .info11 p, .info12 p {
+    .info p, .info2 p, .info3 p, .info4 p, .info5 p, .info6 p, .info7 p, .info8 p, .info8 p, .info9 p, .info10 p, .info11 p, .info12 p {
         font:var(--font-p);
         text-shadow: #0c0c0c 3px 3px 5px;
-        padding-bottom: 0px;
-        margin: 3px;
+        padding: 0px;
+        margin-top: 10px;
     }
     .plataformas img {
         width: 42px ;
