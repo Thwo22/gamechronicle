@@ -597,7 +597,8 @@
     .info15 p,
     .info16 p,
     .info17 p,
-    .info18 p {
+    .info18 p,
+    footer h1{
         font: var(--font-p);
         text-shadow: #0c0c0c 3px 3px 5px;
         margin: 3px;
@@ -615,10 +616,28 @@
     .jogo img:hover {
         height: 27vh;
         width: 87%;
-        box-shadow: 5px 5px 10px #00000091;
+        box-shadow: 0px 0px 25px #00000091;
         cursor: pointer;
         transition-duration: 0.3s;
     }
+
+    footer {
+        background-image: linear-gradient(#975578, #4b293c);
+        text-align: center;
+    }
+
+    footer > h1 {
+        font: 400 22px/1.5 "Fjalla One", sans-serif;
+        color: white;
+        text-shadow: 3px 3px 3px black;
+        padding: 5px;
+    }
+
+   footer > p  {
+    font: 400 15px/1.5 "Fira Sans", sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+   }
 
 }
 
@@ -785,10 +804,8 @@
         border-radius: 8px;
 
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -806,12 +823,9 @@
     .info4 {
         background-image: linear-gradient(rgb(71, 7, 7), #0a0101);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -829,12 +843,9 @@
     .info5 {
         background-image: linear-gradient(#3f0e28, #fcacff);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -857,12 +868,9 @@
     .info6 {
         background-image: linear-gradient(#93cfdf, #ef9c54);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -880,12 +888,9 @@
     .info7 {
         background-image: linear-gradient(#5f1006, #39be5a);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -903,12 +908,9 @@
     .info8 {
         background-image: linear-gradient(#72d7f3, #9ff58a);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -926,12 +928,9 @@
     .info9 {
         background-image: linear-gradient(#2b2b2b, #000000);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -949,12 +948,9 @@
     .info10 {
         background-image: linear-gradient(#c7c7c7, #20303a);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -972,12 +968,9 @@
     .info11 {
         background-image: linear-gradient(#ec6627, #2f2e9b);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -995,12 +988,10 @@
     .info12 {
         background-image: linear-gradient(#6760ce, #b6b5b5);
         border-radius: 8px;
-
         margin: auto;
 
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -1034,12 +1025,9 @@
     .info13 {
         background-image: linear-gradient(#70B7E0, #571277);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -1057,12 +1045,9 @@
     .info14 {
         background-image: linear-gradient(#0b092e, #1ab67a);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -1080,12 +1065,9 @@
     .info15 {
         background-image: linear-gradient(#7aabeb, #58dd8f);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -1103,12 +1085,9 @@
     .info16 {
         background-image: linear-gradient(#ccce60, #ffffff);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -1126,12 +1105,9 @@
     .info17 {
         background-image: linear-gradient(#231b9b, #8f1818);
         border-radius: 8px;
-
         margin: auto;
-
         height: 55vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -1149,12 +1125,9 @@
     .info18 {
         background-image: linear-gradient(#ceab60, #b6b5b5);
         border-radius: 8px;
-
         margin: auto;
-
         height: 60vh;
         width: 92%;
-
         text-align: center;
         color: white;
     }
@@ -1247,10 +1220,28 @@
     .jogo img:hover {
         height: 24vh;
         width: 65%;
-        box-shadow: 5px 5px 10px #00000091;
+        box-shadow: 0px 0px 25px #00000091;
         cursor: pointer;
         transition-duration: 0.3s;
     }
+
+    footer {
+        background-image: linear-gradient(#975578, #4b293c);
+        text-align: center;
+    }
+
+    footer > h1 {
+        font: 400 26px/1.5 "Fjalla One", sans-serif;
+        color: white;
+        text-shadow: 3px 3px 3px black;
+        padding: 5px;
+    }
+
+   footer > p  {
+    font: 400 20px/1.5 "Fira Sans", sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+   }
 
 }
 
@@ -1258,6 +1249,13 @@
 
 @media (min-width: 1200px) and (max-width:1380px) {
 
+    body {
+        background-color: #0c0c0c;
+        background-image: url(imagens/favicons/controlefundo.png);
+        background-size: 42px;
+        margin: 0px;
+        padding: 0px;
+        }
 
     .superior {
         background: url(imagens/gta6.jpg) bottom/cover no-repeat fixed;
@@ -1343,6 +1341,7 @@
         width: 100%;
         height: 15px;
         margin-top: 45px;
+        margin-bottom: 45px;
     }
 
     /*configuração geral de todos os conteudos do site (com responsividade)*/
@@ -1367,7 +1366,7 @@
     .info {
         background-image: linear-gradient(#975578, #ffa768);
 
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1379,7 +1378,7 @@
 
     .t2>iframe.ds2 {
         position: relative;
-        top: 0%;
+        top: 2.5%;
         left: 5%;
         width: 287%;
         height: 500px;
@@ -1390,7 +1389,7 @@
     .info2 {
         background-image: linear-gradient(#8d0c0c, #db5b11);
 
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1412,7 +1411,7 @@
 
     .info3 {
         background-image: linear-gradient(#000000, #ff974d);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1434,7 +1433,7 @@
 
     .info4 {
         background-image: linear-gradient(rgb(71, 7, 7), #0a0101);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1456,7 +1455,7 @@
 
     .info5 {
         background-image: linear-gradient(#3f0e28, #fcacff);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1483,7 +1482,7 @@
 
     .info6 {
         background-image: linear-gradient(#93cfdf, #ef9c54);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1505,7 +1504,7 @@
 
     .info7 {
         background-image: linear-gradient(#5f1006, #39be5a);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1527,7 +1526,7 @@
 
     .info8 {
         background-image: linear-gradient(#72d7f3, #9ff58a);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1549,7 +1548,7 @@
 
     .info9 {
         background-image: linear-gradient(#2b2b2b, #000000);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1571,7 +1570,7 @@
 
     .info10 {
         background-image: linear-gradient(#c7c7c7, #20303a);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1593,7 +1592,7 @@
 
     .info11 {
         background-image: linear-gradient(#ec6627, #2f2e9b);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
@@ -1615,11 +1614,11 @@
 
     .info12 {
         background-image: linear-gradient(#6760ce, #b6b5b5);
-        border-radius: 10px;
+        border-radius: 0px 15px 15px 0px;
         position: relative;
         top: 20%;
         left: 45%;
-        height: 510px;
+        height: 500px;
         width: 30%;
         text-align: center;
         color: white;
@@ -1643,124 +1642,135 @@
 
     .t13>iframe.zelda {
         position: relative;
-        top: 50%;
+        top: 0%;
         left: 5%;
-        width: 90%;
-        height: 200px;
+        width: 287%;
+        height: 500px;
 
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .info13 {
         background-image: linear-gradient(#70B7E0, #571277);
-        border-radius: 8px;
-        margin: auto;
-        height: 73vh;
-        width: 92%;
+        border-radius: 0px 15px 15px 0px;
+        position: relative;
+        top: 20%;
+        left: 45%;
+        height: 500px;
+        width: 30%;
         text-align: center;
         color: white;
     }
 
     .t14>iframe.pokemon {
         position: relative;
-        top: 50%;
+        top: 0%;
         left: 5%;
-        width: 90%;
-        height: 200px;
+        width: 287%;
+        height: 500px;
 
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .info14 {
         background-image: linear-gradient(#0b092e, #1ab67a);
-        border-radius: 8px;
-        margin: auto;
-        height: 66vh;
-        width: 92%;
+        border-radius: 0px 15px 15px 0px;
+        position: relative;
+        top: 20%;
+        left: 45%;
+        height: 500px;
+        width: 30%;
         text-align: center;
         color: white;
     }
 
     .t15>iframe.ml {
         position: relative;
-        top: 50%;
+        top: 0%;
         left: 5%;
-        width: 90%;
-        height: 200px;
+        width: 287%;
+        height: 500px;
 
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .info15 {
         background-image: linear-gradient(#7aabeb, #58dd8f);
-        border-radius: 8px;
-        margin: auto;
-        height: 66vh;
-        width: 92%;
+        border-radius: 0px 15px 15px 0px;
+        position: relative;
+        top: 20%;
+        left: 45%;
+        height: 500px;
+        width: 30%;
         text-align: center;
         color: white;
     }
 
     .t16>iframe.mparty {
         position: relative;
-        top: 50%;
+        top: 0%;
         left: 5%;
-        width: 90%;
-        height: 200px;
+        width: 287%;
+        height: 500px;
 
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .info16 {
         background-image: linear-gradient(#ccce60, #ffffff);
-        border-radius: 8px;
-        margin: auto;
-        height: 66vh;
-        width: 92%;
+        border-radius: 0px 15px 15px 0px;
+        position: relative;
+        top: 20%;
+        left: 45%;
+        height: 500px;
+        width: 30%;
         text-align: center;
         color: white;
     }
 
     .t17>iframe.sonic {
         position: relative;
-        top: 50%;
+        top: 0%;
         left: 5%;
-        width: 90%;
-        height: 200px;
+        width: 287%;
+        height: 500px;
 
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .info17 {
         background-image: linear-gradient(#231b9b, #8f1818);
-        border-radius: 8px;
-        margin: auto;
-        height: 72vh;
-        width: 92%;
+        border-radius: 0px 15px 15px 0px;
+        position: relative;
+        top: 20%;
+        left: 45%;
+        height: 500px;
+        width: 30%;
         text-align: center;
         color: white;
     }
 
     .t18>iframe.ln3 {
         position: relative;
-        top: 50%;
+        top: 0%;
         left: 5%;
-        width: 90%;
-        height: 200px;
+        width: 287%;
+        height: 500px;
 
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .info18 {
         background-image: linear-gradient(#ceab60, #b6b5b5);
-        border-radius: 8px;
-        margin: auto;
-        height: 65vh;
-        width: 92%;
+        border-radius: 0px 15px 15px 0px;
+        position: relative;
+        top: 20%;
+        left: 45%;
+        height: 500px;
+        width: 30%;
         text-align: center;
         color: white;
     }
-
 
     .info h1,
     h2,
@@ -1787,6 +1797,19 @@
     .info11 h1,
     h2,
     .info12 h1,
+    h2,
+    .extra h1,
+    .info13 h1,
+    h2,
+    .info14 h1,
+    h2,
+    .info15 h1,
+    h2,
+    .info16 h1,
+    h2,
+    .info17 h1,
+    h2,
+    .info18 h1,
     h2 {
         font: var(--font-h1);
         font-size: 30px;
@@ -1807,11 +1830,18 @@
     .info9 p,
     .info10 p,
     .info11 p,
-    .info12 p {
+    .info12 p,
+    .extra p,
+    .info13 p,
+    .info14 p,
+    .info15 p,
+    .info16 p,
+    .info17 p,
+    .info18 p {
         font: var(--font-p);
         text-shadow: #0c0c0c 3px 3px 5px;
         padding: 0px;
-        margin-top: 10px;
+        margin: 10px;
     }
 
     .plataformas img {
@@ -1820,16 +1850,34 @@
     }
 
     .jogo img {
-        height: 23vh;
-        width: 60%;
+        height: 22vh;
+        width: 82%;
     }
 
     .jogo img:hover {
         height: 24vh;
-        width: 65%;
-        box-shadow: 5px 5px 10px #00000091;
+        width: 85%;
+        box-shadow: 0px 0px 25px #00000091;
         cursor: pointer;
         transition-duration: 0.3s;
     }
+
+    footer {
+        background-image: linear-gradient(#975578, #4b293c);
+        text-align: center;
+    }
+
+    footer > h1 {
+        font: 400 22px/1.5 "Fjalla One", sans-serif;
+        color: white;
+        text-shadow: 3px 3px 3px black;
+        padding: 5px;
+    }
+
+   footer > p  {
+    font: 400 12px/1.5 "Fira Sans", sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+   }
 
 }
