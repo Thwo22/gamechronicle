@@ -11,6 +11,14 @@
 /*imagem, responsividade do Cabeçalho superior e Inferior*/
 
 @media (min-width: 320px) and (max-width:720px) {
+
+    body {
+        background-color: #0c0c0c;
+        background-image: url(imagens/favicons/controlefundo.png);
+        background-size: 32px;
+        margin: 0px;
+        padding: 0px;
+        }
     .superior {
 
         background: url(imagens/gta6.jpg) top/cover no-repeat fixed;
@@ -616,6 +624,14 @@
 
 /*TABLETS*/
 @media (min-width: 720px) and (max-width:1200px) {
+
+    body {
+        background-color: #0c0c0c;
+        background-image: url(imagens/favicons/controlefundo.png);
+        background-size: 52px;
+        margin: 0px;
+        padding: 0px;
+        }
     .superior {
         background: url(imagens/gta6.jpg) top/cover no-repeat;
 
@@ -700,6 +716,7 @@
         width: 100%;
         height: 15px;
         margin-top: 45px;
+        margin-bottom: 45px;
     }
 
     /*configuração geral de todos os conteudos do site (com responsividade)*/
@@ -726,7 +743,7 @@
 
         border-radius: 10px;
         margin: auto;
-        height: 50vh;
+        height: 55vh;
         width: 92%;
         text-align: center;
         color: white;
@@ -746,7 +763,7 @@
         background-image: linear-gradient(#8d0c0c, #db5b11);
         border-radius: 8px;
         margin: auto;
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -769,7 +786,7 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -792,7 +809,7 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -815,7 +832,7 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -843,7 +860,7 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -866,7 +883,7 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -889,7 +906,7 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -912,7 +929,7 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -935,7 +952,7 @@
 
         margin: auto;
 
-        height: 53vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -958,7 +975,7 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
@@ -981,12 +998,167 @@
 
         margin: auto;
 
-        height: 50vh;
+        height: 55vh;
         width: 92%;
 
         text-align: center;
         color: white;
     }
+
+    .extra {
+        background-image: linear-gradient(rgb(100, 17, 17), rgb(65, 5, 5));
+        text-align: center;
+        width: 90%;
+        border-radius: 20px 0px 20px 0px;
+        padding: 5px;
+        margin: auto;
+    }
+
+    .extra>p,
+    h1 {
+        text-shadow: 3px 3px 3px black;
+        margin-bottom: 2px;
+        color: white;
+    }
+
+    .t13>iframe.zelda {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 400px;
+
+        margin-bottom: 10px;
+    }
+
+    .info13 {
+        background-image: linear-gradient(#70B7E0, #571277);
+        border-radius: 8px;
+
+        margin: auto;
+
+        height: 55vh;
+        width: 92%;
+
+        text-align: center;
+        color: white;
+    }
+
+    .t14>iframe.pokemon {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 400px;
+
+        margin-bottom: 10px;
+    }
+
+    .info14 {
+        background-image: linear-gradient(#0b092e, #1ab67a);
+        border-radius: 8px;
+
+        margin: auto;
+
+        height: 55vh;
+        width: 92%;
+
+        text-align: center;
+        color: white;
+    }
+
+    .t15>iframe.ml {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 400px;
+
+        margin-bottom: 10px;
+    }
+
+    .info15 {
+        background-image: linear-gradient(#7aabeb, #58dd8f);
+        border-radius: 8px;
+
+        margin: auto;
+
+        height: 55vh;
+        width: 92%;
+
+        text-align: center;
+        color: white;
+    }
+
+    .t16>iframe.mparty {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 400px;
+
+        margin-bottom: 10px;
+    }
+
+    .info16 {
+        background-image: linear-gradient(#ccce60, #ffffff);
+        border-radius: 8px;
+
+        margin: auto;
+
+        height: 55vh;
+        width: 92%;
+
+        text-align: center;
+        color: white;
+    }
+
+    .t17>iframe.sonic {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 400px;
+
+        margin-bottom: 10px;
+    }
+
+    .info17 {
+        background-image: linear-gradient(#231b9b, #8f1818);
+        border-radius: 8px;
+
+        margin: auto;
+
+        height: 55vh;
+        width: 92%;
+
+        text-align: center;
+        color: white;
+    }
+
+    .t18>iframe.ln3 {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 400px;
+
+        margin-bottom: 10px;
+    }
+
+    .info18 {
+        background-image: linear-gradient(#ceab60, #b6b5b5);
+        border-radius: 8px;
+
+        margin: auto;
+
+        height: 60vh;
+        width: 92%;
+
+        text-align: center;
+        color: white;
+    }
+
 
     .info h1,
     h2,
@@ -1013,8 +1185,23 @@
     .info11 h1,
     h2,
     .info12 h1,
-    h2 {
-        font: var(--font-h1);
+    h2, 
+    .info12 h1,
+    h2, 
+    .extra h1,
+    .info13 h1,
+    h2,
+    .info14 h1,
+    h2,
+    .info15 h1,
+    h2,
+    .info16 h1,
+    h2,
+    .info17 h1,
+    h2,
+    .info18 h1,
+    h2  {
+        font: 400 42px/1.5 "Fjalla One", sans-serif;
         margin: 0px;
         padding-top: 10px;
         text-shadow: #0c0c0c 3px 3px 5px;
@@ -1030,10 +1217,18 @@
     .info8 p,
     .info8 p,
     .info9 p,
-    .info p,
+    .info p, 
+    .info10 p,
     .info11 p,
-    .info12 p {
-        font: var(--font-p);
+    .info12 p, 
+    .extra p,
+    .info13 p,
+    .info14 p,
+    .info15 p,
+    .info16 p,
+    .info17 p,
+    .info18 p {
+        font: 400 32px/1.5 "Fira Sans", sans-serif;
         text-shadow: #0c0c0c 3px 3px 5px;
         padding-bottom: 0px;
         margin: 3px;
@@ -1429,6 +1624,143 @@
         text-align: center;
         color: white;
     }
+
+    .extra {
+        background-image: linear-gradient(rgb(100, 17, 17), rgb(65, 5, 5));
+        text-align: center;
+        width: 90%;
+        border-radius: 10px 0px 10px 0px;
+        padding: 5px;
+        margin: auto;
+    }
+
+    .extra>p,
+    h1 {
+        text-shadow: 3px 3px 3px black;
+        margin-bottom: 2px;
+        color: white;
+    }
+
+    .t13>iframe.zelda {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 200px;
+
+        margin-bottom: 10px;
+    }
+
+    .info13 {
+        background-image: linear-gradient(#70B7E0, #571277);
+        border-radius: 8px;
+        margin: auto;
+        height: 73vh;
+        width: 92%;
+        text-align: center;
+        color: white;
+    }
+
+    .t14>iframe.pokemon {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 200px;
+
+        margin-bottom: 10px;
+    }
+
+    .info14 {
+        background-image: linear-gradient(#0b092e, #1ab67a);
+        border-radius: 8px;
+        margin: auto;
+        height: 66vh;
+        width: 92%;
+        text-align: center;
+        color: white;
+    }
+
+    .t15>iframe.ml {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 200px;
+
+        margin-bottom: 10px;
+    }
+
+    .info15 {
+        background-image: linear-gradient(#7aabeb, #58dd8f);
+        border-radius: 8px;
+        margin: auto;
+        height: 66vh;
+        width: 92%;
+        text-align: center;
+        color: white;
+    }
+
+    .t16>iframe.mparty {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 200px;
+
+        margin-bottom: 10px;
+    }
+
+    .info16 {
+        background-image: linear-gradient(#ccce60, #ffffff);
+        border-radius: 8px;
+        margin: auto;
+        height: 66vh;
+        width: 92%;
+        text-align: center;
+        color: white;
+    }
+
+    .t17>iframe.sonic {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 200px;
+
+        margin-bottom: 10px;
+    }
+
+    .info17 {
+        background-image: linear-gradient(#231b9b, #8f1818);
+        border-radius: 8px;
+        margin: auto;
+        height: 72vh;
+        width: 92%;
+        text-align: center;
+        color: white;
+    }
+
+    .t18>iframe.ln3 {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 200px;
+
+        margin-bottom: 10px;
+    }
+
+    .info18 {
+        background-image: linear-gradient(#ceab60, #b6b5b5);
+        border-radius: 8px;
+        margin: auto;
+        height: 65vh;
+        width: 92%;
+        text-align: center;
+        color: white;
+    }
+
 
     .info h1,
     h2,
