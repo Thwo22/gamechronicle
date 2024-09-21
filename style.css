@@ -388,7 +388,7 @@
     }
 
     .extra {
-        background-color: rgb(122, 24, 24);
+        background-image: linear-gradient(rgb(100, 17, 17), rgb(65, 5, 5));
         text-align: center;
         width: 90%;
         border-radius: 10px 0px 10px 0px;
